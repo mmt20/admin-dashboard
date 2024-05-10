@@ -1,0 +1,38 @@
+.qrCode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  padding: 20px;
+
+  .leftT {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightT {
+    padding: 20px;
+
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      padding: 10px;
+      border: none;
+      background-color: #0a75ad;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+      &:hover {
+        background-color: #065783;
+      }
+    }
+  }
+}

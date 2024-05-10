@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+
+  .listContainer {
+    flex: 6;
+    width: 100%;
+    .no-data {
+      text-align: center;
+      font-size: 32px;
+      color: #555;
+      margin-top: 200px;
+    }
+  }
+}
