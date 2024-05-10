@@ -49,7 +49,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: start;
+            align-items: flex-start;
             gap: 20px;
             .studentTitle {
               font-size: 18px;
@@ -95,7 +95,7 @@
     .titleQrCode {
       font-size: 22px;
       color: lightgrey;
-      margin-bottom: 10px;
+      margin-bottom: 0px;
     }
   }
 }

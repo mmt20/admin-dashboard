@@ -32,6 +32,7 @@ import EditStudent from './Pages/student/EditStudent';
 
 function App() {
   const { darkMode } = useContext(DarkModeContext);
+  // eslint-disable-next-line
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   useEffect(() => {
     const storedToken = localStorage.getItem('token');

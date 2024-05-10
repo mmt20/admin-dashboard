@@ -5,7 +5,7 @@ import Widget from '../../components/widget/Widget';
 import Featured from '../../components/featured/Featured';
 import Chart from './../../components/chart/Chart';
 import List from '../../components/table/Table';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getAllParent } from '../../redux/action/parentAction';
 import { getAllStudentWithParent } from '../../redux/action/studentAction';
