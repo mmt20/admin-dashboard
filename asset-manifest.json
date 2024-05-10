@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/admin-dashboard/static/css/main.805f3890.css",
+    "main.js": "/admin-dashboard/static/js/main.2b20cb41.js",
+    "static/media/redux.cjs": "/admin-dashboard/static/media/redux.7edfc461ab353f1712ab.cjs",
+    "index.html": "/admin-dashboard/index.html",
+    "main.805f3890.css.map": "/admin-dashboard/static/css/main.805f3890.css.map",
+    "main.2b20cb41.js.map": "/admin-dashboard/static/js/main.2b20cb41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.805f3890.css",
+    "static/js/main.2b20cb41.js"
+  ]
+}
