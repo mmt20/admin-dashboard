@@ -5,7 +5,7 @@ import { loginAdmin } from './../../redux/action/authAction';
 
 const LoginHook = () => {
   const dispatch = useDispatch('');
-  const [email, setEmail] = useState('admin@gmail.com');
+  const [email, setEmail] = useState('example@example.com');
   const [password, setPassword] = useState();
   const [loading, setLoading] = useState(false);
   const [isPress, setIsPress] = useState(false);
